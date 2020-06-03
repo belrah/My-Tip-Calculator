@@ -1,0 +1,99 @@
+body {
+    font-family: serif;
+    background: #3C1053FF;
+}
+
+#container {
+    width: 300px;
+    height: 500px;
+    background: #DF6589FF;
+    border-radius: 20px;
+    margin: 100px auto;
+    color: white;
+}
+
+h1 {
+    background: midnightblue;
+    color: cyan;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 60px;
+    font-size: 20px;
+}
+
+p {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+form input [type="text"] {
+    width: 100px;
+}
+
+input {
+    padding: 10px;
+}
+
+#billamt {
+    width: 120px;
+    font-size: 14px;
+    background: blanchedalmond;
+    padding: 5px auto;
+    color: red;
+}
+
+#billamt:focus {
+    background: white;
+}
+
+#service {
+    font-size: 20px;
+    padding: 15px 15px 15px 15px;
+    margin-left: 20px;
+}
+
+#peopleamt {
+    width: 150px;
+    font-size: 14px;
+    background: blanchedalmond;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    color: red;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background: midnightblue;
+    font-size: 20px;
+    margin: 30px auto;
+    display: block;
+    color: cyan;
+    text-transform: uppercase;
+    border-radius: 35px;
+}
+
+#totaltip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#totaltip :before {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+}
+
+#totaltip sup {
+    font-size: 20px;
+    top: -18px;
+}
+
+#totaltip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
